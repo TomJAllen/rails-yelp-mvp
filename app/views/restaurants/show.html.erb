@@ -16,6 +16,9 @@
 
 
 
-<%= link_to "Leave a review for #{@restaurant.name}", new_restaurant_review_path(@restaurant)%>
+<h1>Give <%= @restaurant.name %> a review!</h1>
+<%= render 'new', review: @review %>
+
+
 
 <%= link_to "<- back", restaurants_path%>
