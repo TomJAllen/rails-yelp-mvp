@@ -30,9 +30,7 @@ class RestaurantsController < ApplicationController
   def get_restaurant
     @restaurant = Restaurant.find(params[:id])
   end
-
 end
-
 
 # A visitor can see the list of all restaurants.
 # GET "restaurants"
