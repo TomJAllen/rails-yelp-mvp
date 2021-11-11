@@ -1,0 +1,9 @@
+// Import page-specific CSS files here.
+@import "home";
+
+.container {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+
+}
